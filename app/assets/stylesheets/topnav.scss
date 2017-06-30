@@ -7,12 +7,6 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 680px) {
-  .top-nav {
-    justify-content: space-around;
-  }
-}
-
 .session-button {
   display: block;
   font-size: 1.5rem;
@@ -25,5 +19,4 @@
 }
 .session-link:hover {
   border-bottom: 2px $orange solid;
-  // transition: border 0.3s ease-in-out 0s;
 }
