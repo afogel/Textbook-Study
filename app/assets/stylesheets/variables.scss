@@ -1,0 +1,34 @@
+// Color Variables
+
+// Primary Colors
+$cyan: #80deea;
+// min white opacity for cyan: 100%
+// min black opacity for cyan: 95%
+$light-cyan: #b4ffff;
+// not legible with white
+// min black opacity for light-cyan: 48%
+$dark-cyan: #4bacb8;
+// min white opacity for dark-cyan: 65%
+// not legible with black
+
+// Secondary Colors
+$orange: #ef6c00;
+// min white opacity for orange: 98% (NOTE: only for large text, small text illegible)
+// min black opacity for orange: 70%
+$light-orange: #ff9d3f;
+// not legible with white
+// min black opacity for light-orange: 61%
+$dark-orange: #b53d00;
+// min white opacity for dark-orange: 84%
+// min black opacity for dark-orange: 73% (NOTE: only for large text, small text illegible)
+
+$white: #FFF;
+$grey: #3c3a3a;
+$new-light-grey: #f2f2f2;
+$new-grey: #e6e6e6;
+
+// Font sizes
+$large-text-bold: 2rem;
+$large-text-unbold: 2.5rem;
+$normal-text-bold: 1rem;
+$normal-text-unbold: 1.5rem;

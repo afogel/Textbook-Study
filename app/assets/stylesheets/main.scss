@@ -1,0 +1,33 @@
+// Place all the styles related to the Landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+}
+@media (max-width: 680px) {
+  .landing-body {
+    font-size: 60px;
+  }
+}
+
+.landing-body {
+  background-color: $cyan;
+  color: $grey;
+  display: grid;
+  font-family: "Helvetica";
+  font-size: 20px;
+  font-weight: 400;
+  grid-template-rows: 80px auto 40px;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.footer {
+  font-size: 1rem
+}
